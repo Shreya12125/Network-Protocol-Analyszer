@@ -71,7 +71,7 @@ app.py # Main Flask application
    python app.py
 2. Open your browser and go to:
    http://127.0.0.1:5000
-3.Upload a .pcap file and view:
+3. Upload a .pcap file and view:
   Detected protocols
   Unique MAC/IP addresses
   Port usage statistics
