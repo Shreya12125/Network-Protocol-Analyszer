@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCAP Analyzer - Upload File</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>PCAP File Analyzer</h1>
+        <form id="uploadForm" method="POST" action="/upload" enctype="multipart/form-data">
+            <label for="fileInput" class="file-label">Upload your PCAP file:</label>
+            <input type="file" id="fileInput" name="fileInput" accept=".pcap" required>
+            <button type="submit">Analyze File</button>
+            <p id="message"></p>
+        </form>
+    </div>
+</body>
+</html>
