@@ -1,4 +1,4 @@
-# 📡 Network Protocol Analyzer
+# Network Protocol Analyzer
 
 A **web-based tool** for analyzing network traffic from `.pcap` files using **Flask** and **Scapy**.  
 It identifies protocols, extracts network details, and presents results in a simple and clean web interface.  
@@ -6,7 +6,7 @@ Ideal for network monitoring, troubleshooting, and basic security analysis.
 
 ---
 
-## 📜 Table of Contents
+## Table of Contents
 - [Features](#-features)
 - [Technologies Used](#-technologies-used)
 - [Project Structure](#-project-structure)
